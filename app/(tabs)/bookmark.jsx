@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const HelloWorld = () => {
+const Bookmark = () => {
   return (
     <View>
-      <Text>HelloWorldddd</Text>
+      <Text>Bookmark</Text>
     </View>
   );
 };
 
-export default HelloWorld;
+export default Bookmark;
 
 const styles = StyleSheet.create({});

@@ -7,11 +7,11 @@ export default function Index() {
       <Text className="font-pblack">
         Edit app/index.tsx to edit this screennnnnn.
       </Text>
-      <Link href={"/profile"} style={{ color: "blue" }}>
-        Go to Profile
+      <Link href={"/sign-in"} style={{ color: "blue" }}>
+        Go to Sign In
       </Link>
-      <Link href={"/hello"} style={{ color: "red" }}>
-        Go to Hello
+      <Link href={"/home"} style={{ color: "red" }}>
+        Go to Home
       </Link>
     </View>
   );
