@@ -8,8 +8,6 @@ import { useGlobalContext } from "@/context/global-context";
 
 export default function Index() {
   const { isLoading, isLoggedIn } = useGlobalContext();
-  console.log({ isLoading });
-  console.log({ isLoggedIn });
 
   if (!isLoading && isLoggedIn) return <Redirect href={"/home"} />;
 
